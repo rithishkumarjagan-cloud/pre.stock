@@ -440,8 +440,3 @@ print("="*55)
 train_all()
 
 threading.Thread(target=refresh_prices, daemon=True).start()
-
-if __name__ == '__main__':
-    print(f"\n  Open browser: http://localhost:5000")
-    print("="*55 + "\n")
-    app.run(debug=False, port=5000, use_reloader=False)
