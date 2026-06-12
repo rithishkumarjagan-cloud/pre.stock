@@ -1,6 +1,6 @@
 flask
-yfinance
+gunicorn
 pandas
 numpy
 scikit-learn
-matplotlib
+yfinance
